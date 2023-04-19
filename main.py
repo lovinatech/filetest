@@ -9,7 +9,7 @@ if lines:
     print("Предыдущий ответ:", previous_answer)
 
 # Получаем новый ответ от пользователя
-new_answer = input("Новый ответ: ")
+new_answer = "sraka"
 
 # Открываем файл для записи нового ответа
 with open("answers.txt", "w") as file:
